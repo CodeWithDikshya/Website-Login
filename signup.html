@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #EAF7FB; /* Soft light blue */
+        }
+        
+        .wrapper {
+            background: #FFFFFF;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            padding: 25px;
+        }
+        
+        .branding {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .branding h1 {
+            font-size: 26px;
+            color: #2C6E91;
+        }
+        .branding p {
+            font-size: 14px;
+            color: #34495E; /* Neutral dark color for accessibility */
+            margin-top: 10px;
+        }
+        .login-form {
+            width: 100%;
+        }
+        .input-box {
+            margin-bottom: 20px;
+        }
+        .input-box label {
+            display: block;
+            font-size: 14px;
+            color: #34495E;
+            margin-bottom: 8px;
+        }
+        .input-box input {
+            width: 100%;
+            height: 40px;
+            padding: 0 15px;
+            border: 1px solid #BFD4DA;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        .input-box input:focus {
+            border-color: #2C6E91;
+            outline: none;
+        }
+        .extra-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .extra-options a {
+            color: #2C6E91;
+            text-decoration: none;
+        }
+        .extra-options a:hover {
+            text-decoration: underline;
+        }
+        .button-group {
+            text-align: center;
+        }
+        .button-group button {
+            background: #2C6E91;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .button-group button:hover {
+            background: #228C95;
+            transform: scale(1.05);
+        }
+        .signup {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .signup a {
+            color: #228C95;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .signup a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="login-container">
+            <div class="branding">
+                <h1>Welcome to OptiNest</h1>
+                <p>Login to access your account and explore our premium eyewear and optical care services.</p>
+            </div>
+            <div class="login-form">
+                <form action="#" method="post">
+                    <div class="input-box">
+                        <label for="username">Full Name</label>
+                        <input type="email" id="username" name="username" placeholder="Enter your Full Name" required aria-label="E-mail">
+                    </div>
+                    <div class="input-box">
+                        <label for="phonenumber">Ph.no</label>
+                        <input type="email" id="username" name="username" placeholder="Enter your phone number" required aria-label="E-mail">
+                    </div>
+                    <div class="input-box">
+                        <label for="username">E-mail</label>
+                        <input type="email" id="username" name="username" placeholder="Enter your E-mail" required aria-label="E-mail">
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required aria-label="Password">
+                    </div>
+                    <div class="button-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
